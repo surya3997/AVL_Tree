@@ -16,12 +16,12 @@ int main()
         root=insert(root,num[i]);
     }
 	
-	std::cout << "\n\nLevel order traversal of the tree :\n";
+	cout << "\n\nLevel order traversal of the tree :\n";
     printLevelOrder(root);
 	cout << "\nIn order traversal of the tree :\n";
 	inorder(root);
     remove(root,9);
-	std::cout << "\nLevel order traversal of the tree :\n";
+	cout << "\nLevel order traversal of the tree :\n";
     printLevelOrder(root);
 	cout << "\nIn order traversal of the tree :\n";
 	inorder(root);
